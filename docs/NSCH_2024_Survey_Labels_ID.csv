@@ -1,0 +1,903 @@
+Name,Label
+HEIGHT,Child's Height (CM)
+FIPSST,State FIPS Code
+STRATUM,Sampling Stratum
+HHID,Unique Household ID
+FORMTYPE,Form Type
+TOTKIDS_R,Number of Children in Household
+TENURE,The Conditions under Which Land or Buildings Are Held or Occupied
+HHLANGUAGE,Primary Household Language
+SC_AGE_YEARS,Age of Selected Child - In Years
+SC_SEX,Sex of Selected Child
+K2Q35A_1_YEARS,Autism ASD - First Told Age in Years
+BIRTH_MO,Birth Month
+BIRTH_YR,Birth Year
+K6Q41R_STILL,Stopped Breastfeeding - Still Breastfeeding
+K6Q42R_NEVER,First Fed Formula - Never
+K6Q43R_NEVER,First Fed Other - Never
+K6Q13A,Questionnaire Covers Talks or Speech Sounds Concerns
+K6Q13B,Questionnaire Covers Interaction Concerns
+K6Q14A,Questionnaire Covers Words and Phrases Concerns
+K6Q14B,Questionnaire Covers Behaves and Gets Along Concerns
+EYECARE1,Eye Doctor Care - Examination
+EYECARE2,Eye Doctor Care - Corrective Lenses
+EYECARE3,Eye Doctor Care - Vision Disorder
+EYECARE4,Eye Doctor Care - Some other care
+K4Q30_R_1,Dental Provider Visit - Dentist
+K4Q30_R_2,Dental Provider Visit - Other
+K4Q30_R_3,Dental Provider Visit - No
+DENTALSERV1,Dental Service - Check-up
+DENTALSERV2,Dental Service - Cleaning
+DENTALSERV3,Dental Service - Instructions on Toothbrushing
+DENTALSERV4,Dental Service - X-Rays
+DENTALSERV5,Dental Service - Fluoride Treatment
+DENTALSERV6,Dental Service - Sealant
+DENTALSERV7,Dental Service - Don't Know
+K4Q28X01,Needed Health Care Not Received - Medical Care
+K4Q28X02,Needed Health Care Not Received - Dental Care
+K4Q28X03,Needed Health Care Not Received - Vision Care
+K4Q28X_EAR,Needed Health Care Not Received - Hearing Care
+K4Q28X04,Needed Health Care Not Received - Mental Health Services
+K4Q28X05,Needed Health Care Not Received - Other
+SESPLANYR,Special Education Plan - Age in Years
+SESPLANMO,Special Education Plan - Age in Months (use with SESPLANYR)
+K4Q37,Received Special Services - Age in Years
+SPCSERVMO,Received Special Services - Age in Months (use with K4Q37)
+LIVEUSA_YR,How Long Living in the United States - Years
+LIVEUSA_MO,How Long Living in the United States - Months
+K11Q43R,How Many Times Moved to New Address
+A1_AGE,Adult 1 - Age in Years
+A2_AGE,Adult 2 - Age in Years
+HHCOUNT,Number of People Living at Address
+FAMCOUNT,Number of People That Are Family Members
+BREATHING,Difficulty Breathing Past 12 Months
+SWALLOWING,Difficulty Swallowing Past 12 Months
+STOMACH,Difficulty Stomach Past 12 Months
+PHYSICALPAIN,Difficulty Physical Pain Past 12 Months
+HANDS,Difficulty Hands Past 12 Months
+COORDINATION,Difficulty Coordination Past 12 Months
+TOOTHACHES,Difficulty Toothaches Past 12 Months
+GUMBLEED,Difficulty Bleeding Gums Past 12 Months
+CAVITIES,Difficulty Cavities Past 12 Months
+MEMORYCOND,"Serious Difficulty Concentrating, Remembering, or Making Decisions"
+WALKSTAIRS,Serious Difficulty Walking or Climbing Stairs
+DRESSING,Difficulty Dressing or Bathing
+ERRANDALONE,Difficulty Doing Errands Alone
+K2Q43B,Deafness
+BLINDNESS,Blindness
+ALLERGIES,Allergies
+ALLERGIES_CURR,Allergies Currently
+K2Q40A,Asthma
+K2Q40B,Asthma Currently
+AUTOIMMUNE,Autoimmune Disease
+K2Q61A,Cerebral Palsy
+DIABETES,Diabetes
+DIABETES_CURR,Diabetes Currently
+K2Q42A,Epilepsy
+K2Q42B,Epilepsy Currently
+HEART,Heart Condition
+HEART_BORN,Heart Born
+HEART_CURR,Heart Condition Currently
+HEADACHE,Headaches
+HEADACHE_CURR,Headaches Currently
+K2Q38A,Tourette Syndrome
+K2Q38B,Tourette Syndrome Currently
+K2Q38C,Tourette Syndrome Severity Description
+K2Q33A,Anxiety
+K2Q33B,Anxiety Currently
+K2Q32A,Depression
+K2Q32B,Depression Currently
+DOWNSYN,Down Syndrome
+BLOOD,Blood Disorder
+SICKLECELL,Blood Disorder Sickle Cell
+THALASSEMIA,Blood Disorder Thalassemia
+HEMOPHILIA,Blood Disorder Hemophilia
+BLOOD_OTHER,Blood Disorder Other (includes Hemophilia)
+BLOOD_SCREEN,Blood Disorder Newborn Screening
+CYSTFIB,Cystic Fibrosis
+CYSTFIB_SCREEN,Cystic Fibrosis Newborn Screening
+FASD,Fetal Alcohol Spectrum Disorder (FASD)
+K2Q34A,Behavior Problems
+K2Q34B,Behavior Problems Currently
+K2Q36A,Developmental Delay
+K2Q36B,Developmental Delay Currently
+K2Q60A,Intellectual Disability
+K2Q60B,Intellectual Disability Currently
+K2Q37A,Speech Disorder
+K2Q37B,Speech Disorder Currently
+K2Q30A,Learning Disability
+K2Q30B,Learning Disability Currently
+K2Q35A,Autism ASD
+K2Q35B,Autism ASD Currently
+AUTISMMED,Autism ASD - Medication Currently
+AUTISMTREAT,Autism ASD - Behavioral Treatment
+K2Q31A,ADD/ADHD
+K2Q31B,ADD/ADHD Currently
+K2Q31D,ADD/ADHD - Medication Currently
+ADDTREAT,ADD/ADHD - Behavioral Treatment
+CONCUSSION,Concussion/Brain Injury
+SEEKCARE,Concussion/Brain Injury - Seek Care
+CONFIRMINJURY,Concussion/Brain Injury - Confirmed Injury
+K2Q05,Born 3 or More Weeks Before Due Date
+K6Q40,Ever Breastfed
+S4Q01,Doctor Visit
+DOCPRIVATE,Child Spoke with Doctor Privately
+OVERWEIGHT,Doctor Identified as Overweight
+K6Q10,"Asked about Learning, Development, Behavior Concerns"
+K6Q12,Questionnaire - Development Concerns
+ENGAGE_FAST,Eating Engagement - Fasting
+ENGAGE_INTEREST,Eating Engagement - No Interest
+ENGAGE_PICKY,Eating Engagement - Picky
+ENGAGE_BINGE,Eating Engagement - Binging
+ENGAGE_PURG,Eating Engagement - Purging
+ENGAGE_PILLS,Eating Engagement - Pills
+ENGAGE_EXERCISE,Eating Engagement - Over-Exercise
+ENGAGE_NOEAT,Eating Engagement - Not Eating
+K4Q01,Place Usually Goes Sick
+USUALGO,Place Usually Goes for Preventive Care
+USUALSICK,Place Usually Goes for Sick Same As Preventive
+VISIONSCREENOTHER,Vision Screening from Other Provider
+VISIONEXAMREC,Vision Test Recommended
+EYEDOCTOR,Vision Tested by Eye Doctor
+K4Q23,Emotions Concentration Behavior Medication
+K4Q27,Needed Health Care Not Received
+NOTELIG,Needed Health Care Not Received Due to - Not Eligible
+AVAILABLE,Needed Health Care Not Received Due to - Not Available
+APPOINTMENT,Needed Health Care Not Received Due to - Getting Appointment
+TRANSPORTCC,Needed Health Care Not Received Due to - Getting Transportation
+NOTOPEN,Needed Health Care Not Received Due to - Office Not Open
+ISSUECOST,Needed Health Care Not Received Due to - Cost
+HOSPITALSTAY,Admitted to Hospital
+K6Q15,Special Education Plan
+SESCURRSVC,Special Education Plan - Currently
+K4Q36,Received Special Services
+K4Q38,Received Special Services - Currently
+K5Q10,Need a Referral
+DECISIONS_R,Health Care Decisions Needed
+K5Q21,Arrange Or Coordinate Care Extra Help
+TREATCHILD,Doctors Treat Only Children
+TREATADULT,Talked About Child Seeing Doctors Who Treat Adults
+MEDHISTORY,Receive Summary of Medical History
+WRITEPLAN,Doctor Worked with You and Child To Create Written Plan
+RECEIVECOPY,Have Access to Plan of Care
+HEALTHKNOW,How Child Will Be Insured as an Adult
+KEEPINSADULT,How to Obtain/Keep Health Insurance as Child Becomes Adult
+CURRCOV,Health Insurance Coverage - Currently Covered (Use CURRINS)
+K12Q03,Health Insurance - Current/Former Employer or Union
+K12Q04,Health Insurance - Insurance Company
+K12Q12,Health Insurance - Government Assistance Plan
+TRICARE,Health Insurance - TRICARE
+K11Q03R,Health Insurance - Indian Health Service
+HCCOVOTH,Health Insurance - Other
+K3Q25,Problems Paying for Medical or Health Care
+STOPWORK,Past 12 Months - Stopped Working because of Health Status
+CUTHOURS,Past 12 Months -Cut Hours because of Health Conditions
+AVOIDCHG,Past 12 Months - Avoided Changing Jobs to Maintain Health Insurance
+ONEWORD,Say One Word
+TWOWORDS,Use Two Words Together
+THREEWORDS,Use Three Words Together
+ASKQUESTION,"Ask Questions: Who, What, When, Where"
+ASKQUESTION2,"Ask Questions:  Why, How"
+TELLSTORY,Tell a Story
+UNDERSTAND,Understand 'No'
+DIRECTIONS,Follow Verbal Directions
+POINT,Point to Things
+DIRECTIONS2,Follow Two Step Directions
+UNDERSTAND2,"Understand 'In', 'On', 'Under'"
+REPEATED,Child Repeated Any Grades
+K7Q30,Sports Team or Sports Lessons - Past 12 Months
+K7Q31,Clubs or Organizations - Past 12 Months
+K7Q32,Organized Activities or Lessons - Past 12 Months
+K7Q37,Community Service or Volunteer Work - Past 12 Months
+K7Q38,Paid Work or Regular Job - Past 12 Months
+BORNUSA,Born in the United States
+K8Q35,Someone to Turn To for Emotional Support
+K6Q27,Job Change Because Problems with Child Care
+K9Q40,Anyone in Household Use Cigarettes
+K9Q41,Anyone Smoke Inside of Home
+VAPE,Vape/E-Cigarettes inside of Home
+K11Q60,Cash Assistance from Government - Past 12 Months
+K11Q61,Food Stamps - Past 12 Months
+K11Q62,Free or Reduced Cost Meals - Past 12 Months
+EBTCARDS,School Meal Debit
+S9Q34,WIC Benefits - Past 12 Months
+SSI,Receive SSI
+SSIDISABILITY,Receive SSI for Disability
+K10Q11,Neighborhood - Sidewalks or Walking Paths
+K10Q12,Neighborhood - Park or Playground
+K10Q13,Neighborhood - Recreation Center
+K10Q14,Neighborhood - Library or Bookmobile
+K10Q20,Neighborhood - Litter or Garbage
+K10Q22,Neighborhood - Poorly Kept or Rundown Housing
+K10Q23,Neighborhood - Vandalism
+K9Q96,Other Adult Child Can Rely On For Advice
+ACE3,Child Experienced - Parent or Guardian Divorced
+ACE4,Child Experienced - Parent or Guardian Died
+ACE5,Child Experienced - Parent or Guardian Time in Jail
+ACE6,"Child Experienced - Adults Slap, Hit, Kick, Punch Others"
+ACE7,Child Experienced - Victim of Violence
+ACE8,Child Experienced - Lived with Mentally Ill
+ACE9,Child Experienced - Lived with Person with Alcohol/Drug Problem
+ACE10,Child Experienced - Treated Unfairly Because of Race
+ACE11,Child Experienced - Treated Unfairly Because of Health Condition
+VIDEOPHONE,Virtual Health Care Visits
+A1_DEPLSTAT,Adult 1 - Deployment Status
+A2_DEPLSTAT,Adult 2 - Deployment Status
+ALLERGIES_DESC,Allergies Severity Description
+K2Q40C,Asthma Severity Description
+AUTOIMMUNE_DESC,Autoimmune Disease Description
+CERPALS_DESC,Cerebral Palsy Severity Description
+DIABETES_DESC,Diabetes Severity Description
+K2Q42C,Epilepsy Severity Description
+HEART_DESC,Heart Condition Severity Description
+HEADACHE_DESC,Headaches Severity Description
+K2Q33C,Anxiety Severity Description
+K2Q32C,Depression Severity Description
+BLOOD_DESC,Blood Disorder Severity Description
+CYSTFIB_DESC,Cystic Fibrosis Severity Description
+K2Q34C,Behavior Problems Severity Description
+K2Q36C,Developmental Delay Severity Description
+K2Q60C,Intellectual Disability Severity Description
+K2Q37C,Speech Disorder Severity Description
+K2Q30C,Learning Disability Severity Description
+K2Q35C,Autism ASD Severity Description
+K2Q31C,ADD/ADHD Severity Description
+ENGAGECONCERN,Concerned over Child's Engagement in Eating Behaviors
+BODYIMAGE,Child's concern over body image
+BOUNCEABALL,Bounce Ball
+DRAWACIRCLE,Draw a Circle
+DRAWAFACE,Draw a Face
+DRAWAPERSON,Draw a Person
+A1_SEX,Adult 1 - Sex
+A1_BORN,Adult 1 - Where Born
+A1_EMPLOYED_R,Adult 1 - Current Employment Status
+A1_GRADE,Adult 1 - Highest Completed Year of School
+A1_MARITAL,Adult 1 - Marital Status
+A1_RELATION,Adult 1 - How Related to Child
+A2_SEX,Adult 2 - Sex
+A2_BORN,Adult 2 - Where Born
+A2_EMPLOYED_R,Adult 2 - Current Employment Status
+A2_GRADE,Adult 2 - Highest Completed Year of School
+A2_MARITAL,Adult 2 - Marital Status
+A2_RELATION,Adult 2 - How Related to Child
+A1_ACTIVE,Adult 1 - Active Duty
+A2_ACTIVE,Adult 2 - Active Duty
+A1_PHYSHEALTH,Adult 1 - Physical Health
+A1_MENTHEALTH,Adult 1 - Mental or Emotional Health
+A2_PHYSHEALTH,Adult 2 - Physical Health
+A2_MENTHEALTH,Adult 2 - Mental or Emotional Health
+K2Q01,General Health
+K2Q01_D,Teeth Description
+K5Q40,How Often - Spend Enough Time
+K5Q41,How Often - Listen Carefully
+K5Q42,How Often - Show Sensitivity
+K5Q43,How Often - Provide Specific Information
+K5Q44,How Often - Feel Like a Partner
+DISCUSSOPT,How Often - Provider Discussed Range of Options
+RAISECONC,How Often - Easy to Raise Concerns or Disagree
+BESTFORCHILD,How Often - Work to Decide Together Treatment
+K3Q20,Health Insurance - Benefits Cover Services
+K3Q22,Health Insurance - Allow to See Provider
+K3Q21B,How Often Costs Reasonable
+K6Q70_R,Affectionate
+K6Q73_R,Bounces Back
+K6Q71_R,Show Interest and Curiosity
+K6Q72_R,Smiles Laughs
+K7Q84_R,Works to Finish Tasks Started
+K7Q85_R,Stays Calm and In Control When Challenged
+K7Q82_R,Cares About Doing Well in School
+K7Q83_R,Does All Required Homework
+K7Q70_R,Argues Too Much
+BULLIED_R,"Bullied, Picked On, or Excluded by Others"
+BULLY,"Bullies Others, Picks on Them, or Excludes Them"
+RECOGBEGIN,Recognize Beginning Sound of a Word
+SAMESOUND,Words with Same Start Sound
+CLEAREXP,How Often - Explain Things Good Idea
+WRITENAME,How Often - Write First Name
+FOCUSON,Focus on a Task
+READONEDIGIT,Read One Digit
+SIMPLEADDITION,Simple Addition
+GROUPOFOBJECTS,Group of Objects
+NAMEEMOTIONS,Recognize Emotion
+STARTNEWACT,How Often - Difficulty End/Starting Activities
+TEMPER_R,How Often - Loses Temper
+PLAYWELL,How Often - Play Well with Others
+DISTRACTED,How Often - Easily Distracted
+HURTSAD,How Often - Show Concern
+CALMDOWN_R,How Often - Calms Down When Excited
+WAITFORTURN,How Often - Waits for Their Turn
+HARDWORK,How Often - Work even when hard
+SHARETOYS,Share Toys
+RECOGABC,Recognize Letters of Alphabet
+TALKABOUT,Facing Problems - How Often Talk Together
+WKTOSOLVE,Facing Problems - How Often Work Together
+STRENGTHS,Facing Problems - How Often Draw on Strengths
+HOPEFUL,Facing Problems - How Often Stay Hopeful
+K10Q30,People In Neighborhood Help Each Other Out
+K10Q31,Watch Out for Other's Children
+K10Q40_R,Child is Safe In Neighborhood
+GOFORHELP,Know Where to Go For Help
+K10Q41_R,Child Is Safe at School
+K8Q31,How Often Have You Felt - Child Hard to Care For
+K8Q32,How Often Have You Felt - Child Really Bothers You
+K8Q34,How Often Have You Felt - Angry with Child
+HOWMUCH,How Much Medical Health Care - Past 12 Months
+ATHOMEHC,Hours Spent Providing Home Health Care
+ARRANGEHC,Hours Spent Arranging Health Medical Care
+K7Q02R_R,Days Child Missed School - Illness or Injury
+K7Q04R_R,Times School Contacted Household About Problems
+PHYSACTIV,"Exercise, Play Sport, or Physical Activity for 60 Minutes"
+HOURSLEEP05,Past Week - How Many Hours of Sleep Average
+HOURSLEEP,Past Week - How Many Hours of Sleep Average
+OUTDOORSWKDAY,Time Spent Playing Outdoors - Weekday
+OUTDOORSWKEND,Time Spent Playing Outdoors - Weekend
+SCREENTIME,"How Much Time Spent with TV, Cellphone, Computer"
+K6Q60_R,How Many Days Read to Child
+K6Q61_R,How Many Days Tell Stories or Sing to Child
+K8Q11,How Many Days - Family Eat Meal Together
+FOODSIT,Food Situation In Household - Past 12 Months
+EVALFASD,Evaluation for a Fetal Alcohol Spectrum Disorder Recommended
+RECEVALFASD,Received an Evaluation for FASD
+POSCHOICE,Doctor Worked with Child to Make Positive Choices
+GAINSKILLS,Doctor Worked with Child to Gain Skills to Manage Health
+CHANGEAGE,Doctor Worked with Child to Understand Health Care Changes
+MISSMORTGAGE,Not Able to Pay Mortgage or Rent
+EVERHOMELESS,Homeless or Lived in Shelter
+K2Q35D,Autism ASD - First Told Doctor Type
+HCABILITY,Health Affected Ability - How Often
+HCEXTENT,Health Affected Ability - Extent
+K4Q20R,Preventive Visit - How Many Times
+DOCROOM,Preventive Visit - How Long with Doctor
+WGTCONC,Concerned About Weight
+GOWHENSICK,Place Usually Goes Sick - Where
+DENTISTVISIT,Preventive Dental Visit - How Many Visits
+K4Q22_R,Mental Health Professional Treatment
+TREATNEED,Mental Health Professional Treatment - Problem
+K4Q24_R,Specialist Visit
+K4Q26,Specialist Visit - Problem
+C4Q04,Frustrated In Efforts to Get Service
+HOSPITALER,Hospital Emergency Room Visits
+K4Q04_R,Personal Doctor or Nurse - One or More
+K5Q11,Need a Referral - Problem
+K5Q20_R,Arrange Or Coordinate Care Among Doctors
+K5Q22,Arrange Or Coordinate As Much Help As Wanted
+K5Q30,Communication Satisfaction Among Doctors
+K5Q32,"Communication Satisfaction with School, Child Care, Special Education Program"
+K5Q31_R,"Provider Communication with School, Child Care, Special Education Program"
+K8Q21,Share Ideas or Talk About Things That Matter
+K8Q30,How Well Handling Demands of Raising Children
+COUNTTO_R,Can Count How High
+K7Q33,How Often Attend Events or Activities
+BEDTIME,How Often - Go to Bed at Same Time
+K3Q04_R,Health Insurance Coverage - Past 12 Months (Use INSGAP)
+ACE1,Hard to Cover Basics Like Food or Housing
+MAKEFRIEND,Difficulty Making or Keeping Friends
+STARTSCHOOL,Has Child Started School
+SUGARDRINK,How Many Surgary Drinks
+VEGETABLES,How Many Vegetables
+FRUIT,How Many Fruits
+PLANNEEDS_R,Plan Address Transition
+RHYMEWORD_R,Rhyme Words
+GRADES,Grades Received in School
+HOMEEVIC,Worried about Being Evicted
+MOVES,Number of Times Child Has Moved
+YEAR,Survey Year
+CBSAFP_YN,Core Based Statistical Area Status
+METRO_YN,Metropolitan Statistical Area Status
+MPC_YN,Metropolitan Principal City Status
+TOTAGE_0_5,Count of Children Ages 0 to 5 in Household
+TOTAGE_6_11,Count of Children Ages 6 to 11 in Household
+TOTAGE_12_17,Count of Children Ages 12 to 17 in Household
+TOTCSHCN,Count of Children with Special Health Care Needs in Household
+TOTNONSHCN,Count of Children without Special Health Care Needs in Household
+SC_CSHCN,Special Health Care Needs Status of Selected Child
+SC_RACE_R,"Race of Selected Child, Detailed"
+SC_HISPANIC_R,"Hispanic Origin of Selected Child, Recode"
+SC_ENGLISH,SC  Speaks English
+SC_K2Q10,SC Needs or Uses Medication Currently
+SC_K2Q11,SC Medication Used or Needed for Health Condition
+SC_K2Q12,SC Medication Currently for 12 Months
+SC_K2Q13,SC Needs or Uses More Medical Care than Others
+SC_K2Q14,SC Medical Care Used or Needed for Health Condition
+SC_K2Q15,SC Medical Care Currently for 12 Months
+SC_K2Q16,SC Limited Ability
+SC_K2Q17,SC Limited Ability from Health Condition
+SC_K2Q18,SC Limited Ability from Health Condition for 12 Months
+SC_K2Q19,SC Special Therapy
+SC_K2Q20,SC Special Therapy for Health Condition
+SC_K2Q21,SC Special Therapy for Health Condition for 12 Months
+SC_K2Q22,SC Needs Treatment for Emotion Develop Behave
+SC_K2Q23,SC Treatment for Chronic Emotion Develop Behave
+SC_AGE_LT4,Age of Selected Child - Less than 4 Months
+SC_AGE_LT6,Age of Selected Child - Less than 6 Months
+SC_AGE_LT9,Age of Selected Child - Less than 9 Months
+SC_AGE_LT10,Age of Selected Child - Less than 10 Months
+AGEPOS4,Birth Order of Selected Children in Household
+TENURE_IF,Imputation Flag for TENURE
+TOTMALE,Count of Male Children in Household
+TOTFEMALE,Count of Female Children in Household
+SC_RACE_R_IF,Imputation Flag for SC_RACE_R
+SC_RACER,"Race of Selected Child, Recode"
+SC_HISPANIC_R_IF,Imputation Flag for SC_HISPANIC_R
+SC_SEX_IF,Imputation Flag for SC_SEX
+BIRTHWT_OZ_S,"Standardized Birth Weight, Ounces"
+BREASTFEDEND_DAY_S,Stopped Breastfeeding - Days (Standardized)
+BREASTFEDEND_WK_S,Stopped Breastfeeding - Weeks (Standardized)
+BREASTFEDEND_MO_S,Stopped Breastfeeding - Months (Standardized)
+FRSTFORMULA_DAY_S,First Fed Formula - Days (Standardized)
+FRSTFORMULA_WK_S,First Fed Formula - Weeks (Standardized)
+FRSTFORMULA_MO_S,First Fed Formula - Months (Standardized)
+FRSTSOLIDS_DAY_S,First Fed Solids - Days (Standardized)
+FRSTSOLIDS_WK_S,First Fed Solids - Days (Standardized)
+FRSTSOLIDS_MO_S,First Fed Solids - Days (Standardized)
+HOUSE_GEN,Parental Nativity
+FAMILY_R,Family Structure
+CURRINS,Health Insurance Coverage - Currently Covered
+INSGAP,Health Insurance Coverage - Past 12 Months
+INSTYPE,Insurance Type (Revised)
+BIRTHWT_VL,Birth Weight is Very Low (<1500g)
+BIRTHWT_L,Birth Weight is Low (<2500g)
+BIRTHWT,Birth Weight Status
+FPL_IF,Imputation Flag for FPL
+A1_GRADE_IF,Imputation Flag for A1_GRADE
+BIRTH_YR_F,BIRTH_YR Data Quality Flag
+SC_ASIAN,Asian Alone or in Combination with Other Race
+SC_AIAN,American Indian or Alaska Native Alone or in Combination with Other Race
+SC_NHPI,Native Hawaiian or Other Pacific Islanders Alone or in Combination with Other Race
+WEIGHT,Child's Weight (KG)
+BMICLASS,"Body Mass Index, Percentile"
+HHCOUNT_IF,Imputation Flag for HHCOUNT
+HIGRADE,Highest Level of Education among Reported Adults
+HIGRADE_TVIS,"Highest Level of Education among Reported Adults, Detail"
+FPL_I1,"Family Poverty Ratio, First Implicate"
+FPL_I2,"Family Poverty Ratio, Second Implicate"
+FPL_I3,"Family Poverty Ratio, Third Implicate"
+FPL_I4,"Family Poverty Ratio, Fourth Implicate"
+FPL_I5,"Family Poverty Ratio, Fifth Implicate"
+FPL_I6,"Family Poverty Ratio, Sixth Implicate"
+FWC,Selected Child Weight
+hrsareg,HRSA Region
+age3_24,Age in 3 groups
+age5_24,U.S. children in 5 age groups
+sex_24,Sex of child
+race4_24,Race and ethnicity distribution of the child population
+raceAsia_24,Race and ethnicity distribution of the child population
+race7_24,Race and ethnicity distribution of children in the US population
+PrntNativity_24,Generational status of the parents
+HHLanguage_24,Primary language spoken in the household
+hisplang_24,Primary household language for Hispanic children
+famstruct5_24,Family structure of child's household
+povlev4_24,"Income level based on family poverty level status, imputed"
+povSCHIP_24,"Income level based on family poverty level status (SCHIP), imputed"
+AdultEduc_24,Highest level of education of any adult in the household
+BornUSA_24,Children who were born in the United States
+FamCount_24,Number of family members in the child's household
+MilitarySt_24,Military status of adult(s) in the household
+ChHlthSt_24,Indicator 1.1: Children's overall health status
+TeethCond_24,"Indicator 1.2: Overall condition of children's teeth, age 1-17 years"
+OralProb_24,"Indicator 1.2a: Oral health problems: toothache, bleeding gums, and/or decayed teeth or cavities, age 1-17 years"
+toothache_24,"Children who had toothache during the past 12 months, age 1-17 years"
+gumbleed_24,"Children who had bleeding gums during the past 12 months, age 1-17 years"
+cavities_24,"Children who had decayed teeth or cavities during the past 12 months, age 1-17 years"
+BrstEver_24,"Indicator 1.3: Children who were ever breastfed or fed breast milk, age 0-5 years"
+ExBrstFd_24,"Indicator 1.3a: Exclusively breastfed or given breast milk for first 6 months, age 6 months-5 years"
+ExBrstfed6mto2y_24,"Indicator 1.3b: Exclusively breastfed or given breast milk for first 6 month, age 6 months - 2 years"
+fruit_23,"Fruit consumption, age 1-5 years"
+SugarDrink_24,"Sugary drink consumption, age 1-17 years"
+vegetables_24,"Vegetable consumption, age 1-5 years"
+BMI4_6to17_24,"Indicator 1.4: Weight status of children based on Body Mass Index (BMI) in four categories, 6-17 years"
+BMI3_6to17_24,"Indicator 1.4a: Weight status of children based on Body Mass Index (BMI) in three categories, 6-17 years"
+ToldOverweight_24,Indicator 1.4b: Children who ever told by a doctor or health professional that they have overweight
+MealSkip_24,"Children who engaged in skipping meals or fasting in the past 12 months, age 6-17 years"
+LowInterest_24,"Children who had a low interest in food in the past 12 months, age 6-17 years"
+PickyEat_24,"Children who engaged in extremely picky eating in the past 12 months, age 6-17 years"
+binge_24,"Children who engaged in binge eating in the past 12 months, age 6-17 years"
+purge_24,"Children who engaged in purging or vomiting after eating in the past 12 months, age 6-17 years"
+DietPills_24,"Children who used diet pills, laxatives, or diuretics (water pills) to lose or maintain weight without a doctor’s orders, age 6-17 years"
+OverExercise_24,"Children who engage in over-exercising in the past 12 months, age 6-17 years"
+FearToEat_24,"Children who did not engage in eating due to fear of vomiting or choking in the past 12 months, age 6-17 years"
+PrntCncrn_24,"Caregiver concerns about child’s eating- or body image-related behaviors in the past 12 months, age 6-17 years"
+BodyImage_24,"Indicator 1.4c: Children concerned about body weight, shape, size in the past 12 months, age 6-17 years"
+PhysAct_24,"Indicator 1.5 Children who are physically active at least 60 minutes per day, age 6-17 years"
+OutdrsWkend_24,"Time spent outdoors on an average weekend day, age 3-5 years"
+OutdrsWkDay_24,"Time spent outdoors on most weekdays, age 3-5 years"
+WgtConcn_24,Indicator 1.6: Parental concern about their children's weight
+LowBWght_24,"Indicator 1.7: Children who were born with a low birth weight, that is they weighed less than 2500 grams at birth"
+VeryLBWght_24,"Indicator 1.7a: Children who were born with a very low birth weight, that is they weighed less than 1500 grams at birth"
+BornPre_24,"Indicator 1.8: Children who were born premature, that is more than 3 weeks before their due date"
+CondCnt_24,Number of current health conditions reported from a list of 24
+Cond2more_24,Indicator 1.9: Number of current or lifelong health conditions reported from a list of 24 health conditions
+allergies_24,"Children who currently have allergies including food, drug, insect, seasonal, or other"
+asthma_24,Children currently have asthma
+autoimmune_24,"Children who have autoimmune disease (such as Type 1 Diabetes, Celiac, or Juvenile Idiopathic Arthritis)"
+BloodScr_24,"Children who have blood disorders (such as sickle cell disease, thalassemia, or hemophilia) identified through a blood test"
+blood_24,"Children who have ever told that they have blood disorders (such as sickle cell disease, thalassemia, or hemophilia)"
+palsy_24,Children who currently have cerebral palsy
+CystFibScr_24,Children who have cystic fibrosis identified through a blood test
+CystFib_24,Children who have cystic fibrosis
+Type2diabetes_24,Children who currently have Type 2 diabetes
+DownSynd_24,Children who have Down Syndrome
+FASD_24,Children who ever told by a doctor or other health care provider that the child has Fetal Alcohol Spectrum Disorder (FASD)
+seizure_24,Children who currently have epilepsy or seizure disorder
+heart_24,Children who currently have a heart condition
+headache_24,"Children who currently have frequent or severe headache including migraine, age 3-17 years"
+tourette_24,"Children who currently have Tourette Syndrome, age 3-17 years"
+anxiety_24,"Children who currently have anxiety problems, age 3-17 years"
+depress_24,"Children who currently have depression, age 3-17 years"
+behavior_24,"Children who currently have behavioral or conduct problems, age 3-17 years"
+DevDelay_24,"Children who currently have developmental delay, age 3-17 years"
+IntDisab_24,"Children who currently have intellectual disability or mental retardation, age 3-17 years"
+speech_24,"Children who currently have speech or other language disorder, age 3-17 years"
+learning_24,"Children who currently have a learning disability, age 3-17 years"
+autism_24,"Children who currently have autism or autism spectrum disorder including Asperger's Disorder, pervasive developmental disorder, age 3-17 years"
+ADHD_24,"Children who currently have Attention Deficit Disorder (ADD) or Attention-Deficit Hyperactivity Disorder (ADHD), age 3-17 years"
+hearing_24,Children who have deafness or problems with hearing
+vision_24,"“Children who have blindness or problems with seeing, even when wearing glasses”"
+BrainInjTold_24,Children who were told by a doctor or other health care provider that the child has a concussion or brain injury
+HeartBorn_24, Children who were born with a congenital heart condition
+AllerSev_24,"Parent-rated severity of child's current allergies including food, drug, insect, or other"
+AsthmSev_24,Parent-rated severity of child's current asthma
+AutoimmuneSev_24,"Parent-rated severity of autoimmune disease (such as Type 1 Diabetes, Celiac, or Juvenile Idiopathic Arthritis)"
+BloodSev_24,"Parent-rated severity of child's blood disorders (such as sickle cell disease, thalassemia, or hemophilia)"
+PalsySev_24,Parent-rated severity of child's current cerebral palsy
+CystSev_24,Parent-rated severity of current cystic fibrosis
+Type2DiabetSev_24,Parent-rated severity of child's current diabetes
+SeizSev_24,Parent-rated severity of child's current epilepsy or seizure disorder
+HeartSev_24,Parent-rated severity of child's current heart condition
+HeadSev_24,"Parent-rated severity of current frequent or severe headaches including migraine, age 3-17 years"
+TouretSev_24,"Parent-rated severity of child's current Tourette Syndrome, age 3-17 years"
+AnxietSev_24,"Parent-rated severity of child's current anxiety, age 3-17 years"
+DepresSev_24,"Parent-rated severity of child's current depression, age 3-17 years"
+BehavSev_24,"Parent-rated severity of child's current behavioral or conduct problems, age 3-17 years"
+DevDelSev_24,"Parent-rated severity of child's developmental delay, age 3-17 years"
+IntDisSev_24,"Parent-rated severity of child's current intellectual disability, age 3-17 years"
+SpeechSev_24,"Parent-rated severity of child's current speech or other language disorder, age 3-17 years"
+LearnSev_24,"Parent-rated severity of child's current learning disability, age 3-17 years"
+AutismSev_24,"Parent-rated severity of child's current Autism/ASD, age 3-17 years"
+ADHDSev_24,"Parent-rated severity of child's current ADD/ADHD, age 3-17 years"
+cntdiff,Number of functional difficulties reported from list of 12 different difficulties asked in the survey
+Diff2more_24,Indicator 1.10: Number of functional difficulties reported from a list of 12 difficulties
+DiffBreath_24,Children who have experienced frequent or chronic difficulty with breathing or other respiratory problems (such as wheezing or shortness of breath) in the past 12 months
+DiffSwall_24,Children who have had frequent or chronic difficulty with eating or swallowing in the past 12 months
+DiffDigest_24,"Children who have had frequent or chronic difficulty with digesting food, including stomach/intestinal problems, constipation, or diarrhea in the past 12 months"
+DiffPain_24,"Children who have had frequent or chronic difficulty with repeated or chronic physical pain, including headaches or other back or body pain in the past 12 months"
+DiffHands_24,"Children who have had frequent or chronic difficulty using their hands in the past 12 months, age 0-5 years"
+DiffCoor_24,"Children who have had frequent or chronic difficulty with coordination or moving around in the past 12 month, age 0-5 years"
+DiffMem_24,"Children who have serious difficulty concentrating, remembering, or making decisions because of a physical, mental, or emotional condition, age 6-17 years"
+DiffWalk_24,"Children who have serious difficulty walking or climbing stairs, age 6-17 years"
+DiffDress_24,"Children who have difficulty dressing or bathing, age 6-17 years"
+DiffErrand_24,"Children who have difficulty doing errands alone, such as visiting a doctor’s office or shopping, because of a physical, mental, or emotional condition, age 12-17 years"
+CSHCN_24,Indicator 1.11: Children with special health care needs
+rxmeds_24,Children qualifying on the CSHCN Screener prescription medication criteria
+serve_24,Children qualifying on the CSHCN Screener for elevated use of services criteria
+func_24,Children qualifying on the CSHCN Screener functional limitations criteria
+therapy_24,Children qualifying on the CSHCN Screener specialized therapy criteria
+mhealth_24,"Children qualifying on the CSHCN Screener ongoing emotional, developmental or behavioral criteria for which treatment or counseling is needed"
+qualnum4_24,Number of CSHCN Screener criteria CSHCN met
+CSHCNtype_24,Children with specific types of special health care needs based on CSHCN screening criteria
+CSHCNComplex_24,Complexity of health care needs
+mhneeds_24,"Children with special health care needs who have ongoing emotional, behavioral or developmental issues for which treatment or counseling is needed"
+CSHCNExpanded_24,Children who meet the expanded criteria for special health care needs
+CSHCNComplexExp_24,Complexity of special health care needs (expanded CSHCN criteria)
+DailyAct_24,Indicator 1.12: Children whose health conditions consistently and often greatly affect their daily activities during the past 12 months among children who have any condition
+bully_24,"Indicator 2.1: Children who bullied others, picked on them or excluded them during the past 12 months, age 6-17 years"
+bullied_24,"Indicator 2.2: Children who are bullied, picked on, or excluded by other children during the past 12 months, age 6-17 years"
+flrsh0to5ct,"Count of always/usually responses to flourishing items, age 6 months-5 years"
+flrish0to5_24,"Indicator 2.3: Flourishing for young children, age 6 months-5 years"
+tender_24,"Children are affectionate and tender with parent, age 6 months-5 years"
+resil0to5_24,"Children who bounce back quickly when things don't go their way, age 6 months-5 years"
+curious0to5_24,"Children who show interest and curiosity in learning new things, age 6 months-5 years"
+smile_24,"Children who smile and laugh, age 6 months-5 years"
+flrsh6to17ct,"Count of always/usually responses to flourishing Items, age 6-17 years"
+flrish6to17_24,"Indicator 2.4: Flourishing for children and adolescents, age 6-17 years"
+curious6to17_24,"Children who show interest and curiosity in learning new things, age 6-17 years"
+finishes_24,"Children who work to finish the tasks they start, age 6-17 years"
+resil6to17_24,"Children who stay calm and in control when faced with a challenge, age 6-17 years"
+flourish6mto17_24,"Child flourishing, age 6 months-17 years"
+argue_24,"Indicator 2.5: Children who argue too much, age 6-17 years"
+MakeFriend_24,"Indicator 2.6: Difficulties making or keeping friends, age 6-17 years"
+ADHDind_24,"Indicator 2.7: Children who currently have Attention Deficit Disorder (ADD) or Attention-Deficit Hyperactivity Disorder (ADHD), age 3-17 years"
+ADHDSevInd_24,"Indicator 2.7a: Parent-rated severity of current ADD/ADHD, age 3-17 years"
+ADHDMed_24,"Indicator 2.7b: Children currently taking medication for ADD/ADHD, age 3-17 years"
+ADHDBehTreat_24,"Indicator 2.7c: Received behavioral treatment for ADD/ADHD, age 3-17 years"
+AutismInd_24,"Indicator 2.8: Children who currently have autism or autism spectrum disorder including Asperger's Disorder, pervasive developmental disorder, age 3-17 years"
+ASDSevInd_24,"Indicator 2.8a: Parent-rated severity of current autism or autism spectrum disorder, age 3-17 years"
+ASDMed_24,"Indicator 2.8b: Children currently taking medication for autism, ASD, Asperger's Disorder or PDD, age 3-17 years"
+ASDBehTreat_24,"Indicator 2.8c: Received behavioral treatment for autism, ASD, Asperger's Disorder or PDD, age 3-17 years"
+ASDAge_24,"Indicator 2.8d: Age of diagnosis for autism or ASD, age 3-17 years"
+ASDDrType_24,"Indicator 2.8e: Type of doctor or other health care provider who was the first to tell that this child had autism, ASD, Asperger’s Disorder or PDD, age 3-17 years"
+MedEmotion_24,"Indicator 2.9: Children who are taking medication for ADD/ADHD, ASD, difficulties with emotions, concentration, or behavior, age 3-17 years"
+MEDB10ScrQ5_24,"Indicator 2.10: Children with mental, emotional, developmental or behavioral problems, age 3-17 years"
+CurrIns_24,Indicator 3.1: Current health insurance status at time of survey
+InsGap_24,Indicator 3.2: Children who had consistent health insurance coverage during the past 12 months
+instype_24,Indicator 3.3: Type of health insurance at time of the survey
+instype3_24,Type of health insurance at time of survey - 3 categories
+InsAdeq_24,Indicator 3.4: Adequacy of current insurance coverage
+benefits_24,Current insurance benefits meets child's health needs
+allows_24,Current insurance coverage allows child to see needed providers
+expense_24,Current insurance out-of-pocket costs are reasonable
+insurance_24,Indicator 3.4a: Adequate and continuous insurance
+OutOfPckt_24,"Indicator 3.6: Out-of-pocket costs for child's health care including medical, dental and vision care during the past 12 months"
+MedCare_24,Indicator 4.1: Children who received any type of medical care during the past 12 months
+VideoPhone_24,Children who received any type of medical care by phone or video during the past 12 months
+PrevMed_24,Indicator 4.1a: Children who had one or more preventive medical care visits during past 12 months
+VisitTime_24,Indicator 4.1b: Time with doctor during last preventive check-up
+PrivateTalk_24,"Indicator 4.1c: Children whose doctors spoke with them privately without an adult in the room during last medical care visit, age 12-17 years"
+DentCare_24,"Indicator 4.2: Children who received any type of dental or oral health care during the past 12 months, age 1-17 years"
+DentCare2_24,"Children who received any type of dental or oral health care during the past 12 months, age 1-17 years"
+Dentist_24,"Indicator 4.2: Children who saw a dentist during the past 12 months, age 1-17 years"
+OralProf_24,"Indicator 4.2: Children who saw oral health professionals other than a dentist during the past 12 months, age 1-17 years"
+PrevDent_24,"Indicator 4.2a: Children who had one or more preventive dental care visits during the past 12 months, age 1-17 years"
+DentCheck_24,"Children who had dental check up visits during the past 12 months, age 1-17 years"
+DentCleaning_24,"Children who had dental cleaning during the past 12 months, age 1-17 years"
+DentInstruct_24,"Children who had dental instruction during the past 12 months, age 1-17 years"
+DentXray_24,"Children who had dental X-ray during the past 12 months, age 1-17 years"
+fluoride_24,"Children who had fluoride treatment during the past 12 months, age 1-17 years"
+sealant_24,"Children who had sealant during the past 12 months, age 1-17 years"
+MedDentCare_24,Indicator 4.3: Children received both preventive medical and dental care visits in past 12 months
+MentHCare_24,"Indicator 4.4: Children who received needed treatment or counseling from a mental health professional during the past 12 months, age 3-17 years"
+MentHDiff_24,"Indicator 4.4a: Difficulties obtaining mental health care among those who received or needed care during the past 12 months, age 3-17 years"
+SpecCare_24,Indicator 4.5: Received care from a specialist doctor other than a mental health professional during the past 12 months
+SpCareDiff_24,Indicator 4.5a: Difficulties obtaining specialist care among those who received or needed a specialist care during the past 12 months
+EyeDoctor_24,Indicator 4.6a: Children who saw and eye doctor ever (0-5 years)/during the past 2 years (6-17 years)
+EyeExam_24,Received eye examination from an eye doctor ever (0-5 years)/during the past 2 years (6-17 years)
+EyeGlassContact_24,Received prescription for eyeglasses or contact lenses from an eye doctor ever (0-5 years)/during the past 2 years (6-17 years)
+VisionDisorder_24,"Children who were diagnosed to have a vision disorder other than nearsighted, farsighted, or astigmatism by an eye doctor even (0-5 years)/during the past 2 years (6-17 years)"
+VisnScrnOther_24,Indicator 4.6b: Children who received a vision screening from a provider other than an eye doctor ever (0-5 years)/during the past 2 years (6-17 years)
+RecEyeExam_24,Recommended for an eye examination or additional vision service as a result of the vision screening
+ERVisit_24,Indicator 4.7: Number of hospital emergency room visits for any health reason in the past 12 months
+HospitalStay_24,Indicator 4.7a: Children who were admitted to the hospital to stay at least one night
+DrAskConc_24,"Indicator 4.9: Doctor asked about parental concerns about the child's learning, development, or behavior, age 0-5 years"
+DevScrnng_24,"Indicator 4.10: Children who received a developmental screening using a parent-completed screening tool, age 9-35 months"
+SpecServ_24,"Indicator 4.11: Children currently receive special services  to meet child’s developmental needs such as speech, occupational or behavioral therapy"
+SpSerAge_24,"Indicator 4.11a: Age start receiving special services to meet child’s developmental needs such as speech, occupational or behavioral therapy"
+MedHome_24,"Indicator 4.12: Children receiving coordinated, ongoing, comprehensive care within a medical home"
+PerDrNs_24,Indicator 4.12a: Medical Home Component: Children with a personal doctor or nurse
+UsualSck_24,Indicator 4.12b: Medical Home Component: Usual source for sick care
+FamCent_24,Indicator 4.12c: Medical Home Component: Children who received family-centered care
+time_24,Doctors spent enough time with children
+listen_24,Doctors listened carefully to children's parents
+sensitiv_24,Doctors showed sensitivity to children's family's values and customs
+info_24,Doctors provided information specific to parents' concerns
+partner_24,Doctors helped parents to feel like partners in child's care
+NoRefPrb_24,Indicator 4.12d: Medical Home Component: Difficulties getting referrals to see any doctors or receive any services
+NoRefPrb2_24,"Indicator 4.12d: Medical Home Component: Difficulties getting needed referrals, among who needed"
+CareCoor_24,"Indicator 4.12e: Medical Home Component: Effective care coordination, all children"
+CareCoorR_24,"Indicator 4.12e: Medical Home Component: Effective care coordination, among who needed"
+HelpCoord_24,"Family got help with coordinating child's health care in the past 12 months, among those who needed"
+ExtraHelp_24,Family needed extra help to coordinate child's health care
+AllExtraHelp_24,Children whose family got help with care coordination they wanted
+DrCommR_24,Satisfaction with communication among child’s doctor and other health care providers
+OtherComm_24,"Health care provider communicate with child’s school, child care provider, or special education program"
+SatOthComm_24,"Satisfaction with communication among child’s doctors and school, child care provider, or special education program"
+ShareDec_24,Indicator 4.14: Children whose families are partners in shared decision-making for their optimal health
+DiscussOpt_24,Doctors discussed range of health care/treatment options
+RaiseConc_24,Doctors made it easy for parents to raise concerns or disagree with recommendations
+BestChoice_24,Doctors worked with parents to decide together health care/treatment options
+Transition_24,"Indicator 4.15: Youth received necessary services for transition to adulthood, age 12-17 years"
+TimeAlone_24,"Children who had time alone with health care provider at last medical care visit, age 12-17 years"
+ActiveWork_24,"Provider worked with child to gain skills to manage health/health care or understand health care changes at age 18, age 12-17 years"
+TrtAdult_24,"Provider discussed shift to adult health care providers if needed, age 12-17 years"
+ChngeAge_24,Doctors worked with youth age 12-17 years to understand their health care changes that happen at age 18
+PosChoice_24,"Doctor or health care provider actively worked with the child to make positive choices about his/her health, age 12-17 years"
+GainSkill_24,"Doctor or health care provider actively worked with the child to gain skills to manage his/her health and health care, age 12-17 years"
+MedHistory_24,"Youth received a summary of his/her medical history, age 12-17 years"
+PlanCare_24,"Youth currently has a plan of care to meet his/her health goals and needs, age 12-17 years"
+PlanAccess_24,"Youth has access to the plan of care, age 12-17 years"
+PlanNeeds_24,"The plan of care addresses transition to adult health care provider, age 12-17 years"
+InsNeeds_24,"Youth whose caregiver have had someone discuss how to obtain or keep health insurance coverage into adulthood, age 12-17 years"
+SystCare2_24,Indicator 4.17: Children received care in a well-functioning system
+sys0to11care2_24,"Children received care in a well-functioning system, age 0-11 years"
+sys12to17care2_24,"Children received care in a well-functioning system, age 12-17 years"
+ForgoneCare_24,Indicator 4.18: Children who were not able to receive needed health care in the past year
+ForgoneMed_24,Children who were not able to receive needed medical care during the past 12 months
+ForgoneDent_24,Children who were not able to receive needed dental care during the past 12 months
+ForgoneVis_24,Children who were not able to receive needed vision care during the past 12 months
+ForgoneHear_24,Children who were not able to receive needed hearing care during the past 12 months
+ForgoneMH_24,"Children who were not able to receive needed mental health services during the past 12 months, age 3-17 years"
+ineligible_24,Children who were not able to receive needed health care because child was not eligible
+unavailable_24,Children who were not able to receive needed health care because the service this child needed was not available in their area
+appointment_24,Children who were not able to receive needed health care because there were problems getting an appointment
+transport_24,Children who were not able to receive needed health care because there were problems with getting transportation or child care
+NotOpen_24,Children who were not able to receive needed health care because the office was not open when the child needed care
+CostIssue_24,Children who were not able to receive needed health care due to cost
+MedBills_24,Indicator 4.19: Family had problems paying for child's medical or health care bills during the past 12 months
+frustrated_24,Indicator 4.20: Family often frustrated in efforts to get services for their children during the past 12 months
+FASDeval_24,Indicator 4.21: Children who received evaluation for Fetal Alcohol Spectrum Disorder
+SpEducPln_24,"Indicator 5.1: Children currently receive a special education or early intervention plan, age 1-17 years"
+SpEdAge_24,"Indicator 5.1a: Age first received a special education or early intervention plan, age 1-17 years"
+SchlEngage_24,"Indicator 5.2: School engagement, age 6-17 years"
+cares_24,"Children who care about doing well in school, age 6-17 years"
+homework_24,"Children who do all required homework, age 6-17 years"
+grades6to11_24,"Indicator 5.2a: Child’s grades, age 6-11 years"
+grades12to17_24,"Indicator 5.2b: Child’s grades, age 12-17 years"
+ReptGrade_24,"Indicator 5.3: Repeated one or more grades in school, age 6-17 years"
+SchlMiss_24,"Indicator 5.4: Missed school days, age 6-17 years"
+AftSchAct_24,"Indicator 5.5: Children participate in organized activities outside school, age 6-17 years"
+EventPart_24,"Indicator 5.6: Parents participated in child’s event or activities, age 6-17 years"
+sports_24,"Children participated in sports teams or sports lessons after school or on weekends, age 6-17 years"
+clubs_24,"Children participated in clubs or organizations after school or on weekends, age 6-17 years"
+lessons_24,"Children participated in any other organized activities or lessons, such as music, dance, language or other arts, age 6-17 years"
+volunteer_24,"Indicator 5.7: Children participated in community service or volunteer work, age 6-17 years"
+workpay_24,"Indicator 5.8: Work for pay outside home including regular jobs as well as babysitting, cutting grass, or other occasional work, age 12-17 years, 12-17 years"
+mentor_24,"Indicator 5.9: Children have at least one adult mentors, age 6-17 years"
+SchoolReadiness_24,"Indicator 5.11: School readiness, age 3-5 years"
+EL_domain_24,School Readiness: Early Learning Skills domain
+RecogBegin_24,"Child can recognize beginning sound of a word, age 3-5 years"
+SameSound_24,"Child can come up with words starting with the same sound, age 3-5 years"
+WriteName_24,"Child can write first name even if some letters aren't quite right or are backwards, age 3-5 years"
+ReadOneDigit_24,"Child can read one-digit numbers, age 3-5 years"
+SimpleAddition_24,"Child can do simple addition, age 3-5 years"
+GroupOfObjects_24,"Child can tell which group of objects has more, age 3-5 years"
+CountToR_24,"Child can count correctly when asked to count objects, age 3-5 years"
+RecogLetter_24,"Child can recognize letters of alphabet, age 3-5 years"
+RhymeWordR_24,"Child can rhyme words, age 3-5 years"
+SE_domain_24,School Readiness: Social Emotional Development domain
+ClearExp_24,"Child can explain things child has seen or done, age 3-5 years"
+FocusOn_24,"Child can focus on tasks or chores for at least a few minutes, age 3-5 years"
+NameEmotions_24,"Child can recognize and name their own emotions, age 3-5 years"
+PlayWell_24,"Child plays well with other children, age 3-17 years"
+HurtSad_24,"Child shows concern when they see others are hurt or unhappy, age 3-5 years"
+ShareToys_24,"Child shares toys or games with other children, age 3-5 years"
+SR_domain_24,School Readiness: Self-Regulation domain
+StartNewAct_24,"Child has difficulty when asked to end one activity and start a new activity, age 3-5 years"
+temperR_24,"Child who lose their temper, 3-5 years"
+distracted_24,"Child is easily distracted , age 3-5 years"
+CalmDownR_24,"Child has trouble calming down, age 3-5 years"
+WaitForTurn_24,"Child has difficulty waiting for their turn, age 3-5 years"
+M_domain_24,School Readiness: Motor Development domain
+BounceBall_24,"Child can bounce a ball for several seconds, age 3-5 years"
+DrawCircle_24,"Child can draw a circle, age 3-5 years"
+DrawFace_24,"Child can draw a face with eyes and mouth, age 3-5 years"
+DrawPerson_24,"Child can draw a person with a head, body, arms, and legs, age 3-5 years"
+H_domain_24,School Readiness: Health domain
+ChHlthSt3to5_24,"Children's overall health status, age 3-5 years"
+TeethCond3to5_24,"Overall condition of children's teeth, age 3-5 years"
+DailyAct3to5_24,"Children whose health conditions consistently and often greatly affect their daily activities, age 3-5 years"
+HardWork_24,"Child can keep working on a task even when it is hard for them, age 3-5 years"
+OneWord_24,"Children who are able to say at least one word, such as 'hi' or 'dog', age 1-5 years"
+TwoWords_24,"Children who are able to use 2 words together, such as 'car go', age 1-5 years"
+ThreeWords_24,"Children who are able to use 3 words together in a sentence, such as, 'Mommy come now.', age 1-5 years"
+AskQuest1_24,"Children who are able to ask questions like 'who,' 'what,' 'when,' 'where', age 1-5 years"
+AskQuest2_24,"Children who are able to ask questions like 'why' and 'how', age 1-5 years"
+TellStory_24,"Child is able to tell a story with a beginning, middle, and end, age 1-5 years"
+understand_24,"Children who are able to understand the meaning of the word 'no', age 1-5 years"
+directions_24,"Children who are able to follow a verbal direction without hand gestures, such as 'Wash your hands.', age 1-5 years"
+point_24,"Children who are able to point to things in a book when asked, age 1-5 years"
+TwoStepDirec_24,"Children who are able to follow 2-step directions, such as 'Get your shoes and put them in the basket.', age 1-5 years"
+Understand2_24,"Children who are able to understand words such as 'in,' 'on,' and 'under', age 1-5 years"
+MothPhyH_24,Indicator 6.1: Physical health status of child's mother
+FathPhyH_24,Indicator 6.1a: Physical health status of child's father
+ParentPhH_24,Indicator 6.1b: Physical health status of child's co-resident parents/caregivers
+MotherMH_24,Indicator 6.2: Mental health status of child’s mother
+FatherMH_24,Indicator 6.2a: Mental health status of child's father
+ParentMH_24,Indicator 6.2b: Mental health status of child's co-resident parents/caregivers
+MotherHSt_24,Indicator 6.3: Overall physical and mental health status of children's mothers
+FatherHSt_24,Indicator 6.3a: Overall physical and mental health status of children's fathers
+ParentHSt_24,Indicator 6.3b: Overall physical and mental health status of child's co-resident parents/caregivers
+smoking_24,Indicator 6.4: Tobacco use in household
+SmkInside_24,Indicator 6.4a: Someone smokes inside the home
+vape_24,Indicator 6.4b: Someone uses e-cigarettes or vapes in home
+EmploymentSt_24,Indicator 6.5: Caregivers(s) employment status
+WrkngPoorR_24,Indicator 6.5a: Children living in 'working poor' family (full-time or part time employed parents with family income <100% of poverty)
+ShareIdeas_24,"Indicator 6.6: How well children share ideas or talk about things that really matter with their parents, age 6-17 years"
+readto_24,"Indicator 6.7: Number of days children were read aloud to during the past week, age 0-5 years"
+SingStory_24,"Indicator 6.8: Number of days children were sung to or told stories to during past week, age 0-5 years"
+MealTogether_24,"Indicator 6.9: Number of days family eats a meal together, children ages 0-17 years"
+ScreenTime_24,"Indicator 6.10: Time spent in front of a TV, computer, cellphone or other electronic device watching programs, playing games, accessing the internet or using social media, not including schoolwork on most weekdays"
+CtFamRes_24,Count of all of time and most of time responses
+FamResilience_24,Indicator 6.12: Family resilience composite measure
+FamResilience2_24,Indicator 6.12: Family resilience composite measure
+TalkAbout_24,Family members talk together about what to do when the family faces problems
+WrkToSolve_24,Family members work together to solve the problem when the family faces problems
+strengths_24,Family members know we have strengths to draw on when the family faces problems
+hopeful_24,Family members stay hopeful even in difficult times when the family faces problems
+ACEct_24,"Number of adverse childhood experiences, of 10 asked about"
+ACE2more_24,"Indicator 6.13: Children experienced two or more adverse childhood experiences, of 10 items asked about"
+ACEincome_24,"Adverse childhood experience: hard to cover the basics, like food or housing, on family's income"
+ACEincome2_24,How often has it been hard to get by on your family's income - hard to cover basics like food or housing since the child was born?
+ACEdivorce_24,Adverse childhood experience: child's parent or guardian divorced or separated
+ACEdeath_24,Adverse childhood experience: child's parent or guardian died
+ACEjail_24,Adverse childhood experience: child's parent or guardian served time in jail
+ACEdomviol_24,Adverse childhood experience: child witnessed domestic violence
+ACEneighviol_24,Adverse childhood experience: child was victim or witness of neighborhood violence
+ACEmhealth_24,"Adverse childhood experience: child lived with anyone who was mentally ill, suicidal, or severely depressed"
+ACEdrug_24,Adverse childhood experience: child lived with anyone who had a problem with alcohol or drugs
+ACEdiscrim_24,Adverse childhood experience: child was treated or judged unfairly because of their race or ethnic group
+ACEHealthDiscrim_24,Adverse childhood experience: child was treated or judged unfairly because of their health condition or disability status
+ACE6ctHH_24,Number of household-based adverse childhood experiences based on 6 household items
+ACE2more6HH_24,Children experienced one or more household-based adverse childhood experiences
+ACEctComm_24,Number of community-based adverse childhood experiences
+ACE1moreComm_24,Children experienced one or more community-based adverse childhood experiences
+ParAggrav_24,Indicator 6.14: Children whose parents who felt stress from parenting during the past month
+DiffCare_24,Parent felt child is much harder to care for than most children during the past month
+bother_24,Parent felt that their child does things that bother them during the past month
+angry_24,Parent felt angry with child  during the past month
+EmSupport_24,Indicator 6.15: Children living with parents who have someone that they could turn to for day-to-day emotional support with parenting or raising children
+ParCoping_24,Indicator 6.16: Coping with day-to-day demands of raising children
+JobChange_24,"Indicator 6.17: Children whose family members had to quit a job, not take a job, or greatly change their job because of problems with child care, age 0-5 years"
+StopCutWork_24,"Indicator 6.18: Children whose family members left a job, took a leave of absence or cut back hours due to child's health"
+AvoidChng_24,Indicator 6.19: Children whose family member(s) avoided changing jobs because of concerns about maintaining health insurance
+HomeCare_24,Indicator 6.20a: Number of hours spent providing health care at home for child in an average week
+TimeCoord_24,Indicator 6.20b: Number of hours spent coordinating health care for child in an average week
+BedTime_24,Indicator 6.24: Go to bed at the same time on weeknights
+HrsSleep_24,"Indicator 6.25: Child slept recommended age-appropriate hours during an average day/on most weeknights, age 4 months - 17"
+FoodSit_24,Indicator 6.26: Food situation in child's household in the past 12 months
+FoodCash_24,Indicator 6.27: Someone in the family received food or cash assistance at any time during the past 12 months
+CashAss_24,Someone in the family received cash assistance from government at any time during the past 12 months
+FoodStamp_24,Someone in the family received Food Stamps or Supplemental Nutrition Assistance Program benefits at any time during the past 12 months
+MealFree_24,Someone in the family received free or reduced-cost breakfasts or lunches at school at any time during the past 12 months
+EBTCards_24,"Someone in the family received school meal debit/Electronic Benefits Transfer (EBT) cards, even for one month, at any time during the past 12 months"
+WIC_24,Someone in the family received benefits from the WIC Program at any time during the past 12 months
+SSI_24,Indicator 6.28: Children who receive Supplemental Security Income
+SSIDisability_24,Indicator 6.28a: Children who receive Supplemental Security Income for a disability they have - 3 categories
+HousingInstab_24,Indicator 6.29: Children who experienced housing instability in the past year
+MissRentMortgage_24,Children whose family was not able to pay the mortgage or rent on time
+MovedNewAddress_24,Number of times the child has moved to a new address since they were born
+EverHomeless_24,Children who ever experienced homelessness or lived in a shelter since they were born
+HomeEvic_24,"Indicator 6.30: Children live in the family that worried or stressed about being evicted, foreclosed on, having their house condemned in the past 12 months"
+NbhdSupp_24,Indicator 7.1: Children who live in supportive neighborhood
+NbhdSafe_24,Indicator 7.2: Children live in safe neighborhoods
+SchlSafe_24,"Indicator 7.3: Safe schools, age 6-17 years"
+NbhdAmenities_24,Indicator 7.4: Count of amenities in children's neighborhoods
+SideWlks_24,Children who live in neighborhoods with sidewalks or walking paths
+park_24,Children who live in neighborhoods with a park or playground
+RecCentr_24,"Children who live in neighborhoods with recreation center, community center or boys’ and girls’ club"
+library_24,Children who live in neighborhoods with a library or bookmobile
+NbhdDetract_24,Indicator 7.5: Presence of detracting neighborhood elements in the neighborhood
+litter_24,Children who live in neighborhoods with litter or garbage on the street or sidewalk
+housing_24,Children who live in neighborhoods with poorly kept or rundown housing
+vandal_24,Children who live in neighborhoods with vandalism such as broken windows or graffiti
+MedRiskct_24,"Count of medical health risks - 4 components, age 0-17 years"
+MedRisk2more_24,Children who met 2 or more medical health risks from 4 risk components
+MedRisk1more_24,Children who met 1 or more medical health risks from 4 risk components
+SocRiskct_24,"Count of social health risks - 4 components, - at least 2 valid responses from 4 items"
+SocRisk2more_24,"Children who experience 2 or more social health risks from 4 risk components, among children who have at least 2 valid responses from 4 items"
+SocRisk1more_24,"Children who experience 1 or more social health risks from 4 risk components, among children who have at least 2 valid responses from 4 items"
+RelHlthRiskct_24,Number of relational health risks- among children who have at least 2 valid responses from 4 items
+RelHlthRisk2more_24,"Children who experience 2 or more relational health risks from 4 risk components, among children who have at least 2 valid responses from 4 items"
+RelHlthRisk1more_24,"Children who experience 1 or more relational health risks from 4 risk components, among children who have at least 2 valid responses from 4 items"
+WCRIdomains_24,"Whole Child Risk Index: number of risk domains - 3 domains: medical, social health and relational health risks"
+RiskCombo_24,"Combination of Whole Child Risk Index domains - medical, social and relational health risks"
+npmExBrstfed6mto2y_24,"NPM: Percent of children, ages 6 months through 2 years, who were breastfed exclusively for 6 months"
+npmDevScrnng_24,"NPM: Percent of children, ages 9 through 35 months, who received a developmental screening using a parent-completed screening tool in the past year"
+npmHousingInstab_24,"NPM: Percent of children, ages 0 through 11, who experienced housing instability in the past year"
+npmPrevDent1to17_24,"NPM: Percent of children, ages 1 through 17, who had a preventive dental visit in the past year"
+npmPhysAct6to11_24,"NPM: Percent of children, ages 6 through 11, who are physically active at least 60 minutes per day"
+npmFoodSit0to11_24,"NPM: Percent of children, ages 0 through 11, whose households were food sufficient in the past year"
+npmPrevMed12to17_24,"NPM: Percent of adolescents, ages 12 through 17 years, with a preventive medical visit in the past year"
+npmMentHTx12to17_24,"NPM: Percent of adolescents, ages 12 through 17 years. who receive needed mental health treatment or counseling"
+npmMentor12to17_24,"NPM: Percent of adolescents, ages 12 through 17 years, who have one or more adults outside the home who they can rely on for advice or guidance"
+npmMedHome_24,"NPM: Percent of children, ages 0 through 17, who have a medical home"
+npmMedHomeCSHCN_24,"NPM: Percent of children with special health care needs (expanded criteria), ages 0 through 17, who have a medical home"
+npmPerDrNs_24,"NPM: Percent of children, ages 0 through 17, who have a personal doctor or nurse"
+npmPerDrNsCSHCN_24,"NPM: Percent of children with special health care needs (expanded criteria), ages 0 through 17, who have a personal doctor or nurse"
+npmUsualSck_24,"NPM: Percent of children, ages 0 through 17, who have a usual source of sick care"
+npmUsualSckCSHCN_24,"NPM: Percent of children with special health care needs (expanded criteria), ages 0 through 17, who have a usual source of sick care"
+npmFamCent_24,"NPM: Percent of children, ages 0 through 17, who have family centered care"
+npmFamCentCSHCN_24,"NPM: Percent of children with special health care needs (expanded criteria), ages 0 through 17, who have family centered care"
+npmNoRefPrb2_24,"NPM: Percent of children, ages 0 through 17, who did not have difficulties getting needed referrals"
+npmNoRefPrb2CSHCN_24,"NPM: Percent of children with special health care needs (expanded criteria), ages 0 through 17, who did not have difficulties getting needed referrals"
+npmCareCoorR_24,"NPM: Percent of children, ages 0 through 17, who receive needed care coordination"
+npmCareCoorRCSHCN_24,"NPM: Percent of children with special health care needs (expanded criteria), ages 0 through 17, who receive needed care coordination"
+npmTransition_24,"NPM: Percent of adolescents, ages 12 through 17, who received services to prepare for the transition to adult health care"
+npmTransitionCSHCN_24,"NPM: Percent of adolescents with special health care needs (expanded criteria), ages 12 through 17, who received services to prepare for the transition to adult health care"
+npmBully12to17_24,"NPM: Percent of adolescents, ages 12 through 17, who bully others"
+npmBully12to17CSHCN_24,"NPM: Percent of adolescents with special health care needs (expanded criteria), ages 12 through 17, who bully others"
+npmBullied12to17_24,"NPM: Percent of adolescents, ages 12 through 17, who are bullied"
+npmBullied12to17CSHCN_24,"NPM: Percent of adolescents with special health care needs (expanded criteria), ages 12 through 17, who are bullied"
+nomSchoolReadiness2_24,"NOM: Percent of children, ages 3 through 5, meeting the criteria for school readiness"
+nomCavities_24,"NOM: Percent of children, ages 1 through 17, who have decayed teeth or cavities in the past year"
+nomChHlthSt_24,"NOM: Percent of children, ages 0 through 17, in excellent or very good health"
+nomObesity6to17_24,"NOM: Percent of adolescents, ages 6 through 17, who are obese (BMI at or above the 95th percentile)"
+nomBehavior6to11_24,"NOM: Percent of children, ages 6 through 11, who have a behavioral or conduct disorder"
+nomAnxietyDep12to17_24,"NOM: Percent of adolescents, ages 12 through 17, who have depression or anxiety"
+nomSystCareCSHCN_24,"NOM: Percent of children with special health care needs (expanded criteria), ages 0 through 17, who receive care in a well-functioning system"
+nomFlrish6mto5_24,"NOM: Percent of children, ages 6 months through 5 years, who are flourishing"
+nomFlrish6to17_24,"NOM: Percent of children, ages 6 through 17, who are flourishing"
+nomFlrish6to17CSHCN_24,"NOM: Percent of children with special health care needs (expanded criteria), ages 6 through 17, who are flourishing"
+nomACE2more_24,"NOM: Percent of children, ages 0 through 17, who have experienced 2 or more Adverse Childhood Experiences"
+smSmoking_24,"Standardized Measure: Percent of children, ages 0 through 17, who live in households where someone smokes"
+smPhysAct12to17_24,"Standardized Measure: Percent of adolescents, ages 12 through 17 who are physically active at least 60 minutes per day"
+smAdeqIns_24,"Standardized Measure: Percent of children, ages 0 through 17, who are continuously and adequately insured"
+smForgoneHC_24,"Standardized Measure: Percent of children, ages 0 through 17, who were unable to obtain needed health care in the past year"
