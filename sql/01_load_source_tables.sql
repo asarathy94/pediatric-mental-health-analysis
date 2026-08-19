@@ -1891,3 +1891,30 @@ FROM vw_state_context;
 SELECT *
 FROM vw_state_context
 ORDER BY state_name;
+-- =========================================================
+
+
+SELECT *
+FROM vw_nsch_state_condition_concentration
+ORDER BY
+    pct_any_current_condition DESC,
+    pct_two_or_more_conditions DESC;
+    -- =========================================================
+-- RESEARCH QUESTION 1 — COMPACT RESULTS:
+-- Among children ages 6–17, in which states are current
+-- anxiety, depression, and ADHD most concentrated,
+-- individually and in overlap?
+--
+-- This version displays only the state-level percentages
+-- needed to compare states and build the eventual maps.
+-- =========================================================
+
+
+-- CONDITION CODING:
+--   1 = does not have condition
+--   2 = previously diagnosed, not current
+--   3 = currently has condition
+--   99 = missing
+--
+-- Special or missing responses are excluded from that
+-- condition's denominator.
