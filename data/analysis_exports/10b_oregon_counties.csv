@@ -1,0 +1,28 @@
+state_name,state_abbreviation,county_name,county_fips,overlapping_district_count,avg_students_per_psychologist,avg_students_per_guidance_counselor,avg_school_support_rank,avg_hpsa_score,max_hpsa_score,county_shortage_rank_within_state,county_overlap_score,county_candidate_rank_within_state
+OREGON,OR,Klamath County,41035,1,2711.0,903.7,6.5,19.0,22,6,6.25,1
+OREGON,OR,Umatilla County,41059,1,5321.0,354.7,17.0,19.33,24,5,11.0,2
+OREGON,OR,Jackson County,41029,5,1996.1,549.5,22.0,20.67,22,2,12.0,3
+OREGON,OR,Josephine County,41033,1,1547.8,440.5,21.5,20.5,22,3,12.25,4
+OREGON,OR,Wheeler County,41069,1,2494.0,2494.0,6.5,16.5,17,19,12.75,5
+OREGON,OR,Polk County,41053,3,2385.0,513.5,16.67,18.5,19,9,12.84,6
+OREGON,OR,Crook County,41013,1,3352.0,372.4,14.5,17.0,22,13,13.75,7
+OREGON,OR,Wasco County,41065,2,2664.5,1388.8,17.5,16.6,18,17,17.25,8
+OREGON,OR,Malheur County,41045,1,21170.0,529.3,8.0,15.25,19,28,18.0,9
+OREGON,OR,Benton County,41003,1,3054.0,610.8,8.0,15.0,17,30,19.0,10
+OREGON,OR,Lincoln County,41041,1,1202.3,369.9,31.0,18.67,23,8,19.5,11
+OREGON,OR,Clatsop County,41007,2,1067.5,707.8,26.0,16.8,18,16,21.0,12
+OREGON,OR,Coos County,41011,2,1879.0,537.7,20.25,16.0,22,22,21.13,13
+OREGON,OR,Washington County,41067,10,1078.1,309.0,45.25,22.0,23,1,23.13,14
+OREGON,OR,Baker County,41001,1,2600.5,161.3,39.0,18.0,18,10,24.5,15
+OREGON,OR,Lane County,41039,9,1133.4,447.0,36.67,16.86,21,14,25.34,16
+OREGON,OR,Douglas County,41019,5,935.0,447.7,40.3,17.2,22,12,26.15,17
+OREGON,OR,Marion County,41047,6,2006.7,362.3,32.58,16.3,21,20,26.29,18
+OREGON,OR,Union County,41061,1,2600.5,161.3,39.0,16.83,18,15,27.0,19
+OREGON,OR,Multnomah County,41051,9,1264.6,311.3,41.11,16.5,21,18,29.56,20
+OREGON,OR,Hood River County,41027,1,949.8,199.9,57.0,19.5,21,4,30.5,21
+OREGON,OR,Clackamas County,41005,16,1285.7,337.7,38.13,15.75,18,25,31.57,22
+OREGON,OR,Deschutes County,41017,4,1778.6,280.8,37.5,15.5,16,27,32.25,23
+OREGON,OR,Linn County,41043,2,2161.6,330.7,34.25,14.5,16,32,33.13,24
+OREGON,OR,Yamhill County,41071,3,1305.2,287.7,45.33,15.0,18,29,37.17,25
+OREGON,OR,Columbia County,41009,3,837.4,516.1,38.67,13.0,16,36,37.34,26
+OREGON,OR,Jefferson County,41031,1,1000.1,251.5,51.5,15.67,17,26,38.75,27
