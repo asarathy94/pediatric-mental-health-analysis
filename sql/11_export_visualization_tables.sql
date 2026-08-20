@@ -57,3 +57,13 @@ WITH (
     HEADER,
     DELIMITER ','
 );
+
+
+-- ---------------------------------------------------------
+-- EXPORT QA
+-- Confirm final state table contains expected rows/columns
+-- ---------------------------------------------------------
+
+SELECT *
+FROM vw_final_state_analysis
+LIMIT 5;

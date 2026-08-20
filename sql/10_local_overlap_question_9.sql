@@ -19,42 +19,85 @@ FROM read_xlsx(
     '../data/raw/NCES_CC_GEO/GRF25/GRF25/grf25_lea_county.xlsx'
 );
 
+DESCRIBE vw_final_state_analysis;
+
+
+
 DESCRIBE nces_lea_county_crosswalk;
 
 -- =========================================================
--- QUESTION 9
+-- SQL CLOSEOUT
 -- PART 3:
--- Standardize the district-to-county crosswalk.
+-- Final state-level analysis view for Power BI / reporting.
 --
--- Keep only the district ID, district name,
--- county FIPS, and county name.
---
--- LEAID and county FIPS stay as VARCHAR so
--- leading zeros are preserved.
+-- PURPOSE:
+-- Combine the core state-level burden and support measures
+-- used across Questions 1–5 into one clean export view.
 -- =========================================================
 
-CREATE OR REPLACE VIEW vw_q9_district_county_crosswalk AS
+CREATE OR REPLACE VIEW vw_final_state_analysis AS
 
-SELECT DISTINCT
+SELECT
+    -- Geography
+    q1.state_name,
+    q1.state_abbreviation,
 
-    TRIM(LEAID) AS LEAID,
+    -- Pediatric mental-health burden
+    q1.pct_current_anxiety,
+    q1.pct_current_depression,
+    q1.pct_current_adhd,
 
-    TRIM(NAME_LEA25) AS district_name,
+    q1.pct_any_current_condition,
+    q1.pct_two_or_more_conditions,
+    q1.pct_all_three_conditions,
 
-    LPAD(TRIM(STCOUNTY), 5, '0') AS county_fips,
+    -- Primary condition profile
+    q1.dominant_condition_profile,
+    q1.dominant_profile_pct,
 
-    TRIM(NAME_COUNTY25) AS county_name
+    -- Multi-condition profile
+    q1.dominant_cooccurring_profile,
+    q1.dominant_cooccurring_pct,
 
-FROM nces_lea_county_crosswalk
+    -- School mental-health support
+    q2.students_per_psychologist,
+    q2.students_per_guidance_counselor,
 
-WHERE LEAID IS NOT NULL
-  AND STCOUNTY IS NOT NULL;
+    -- Community mental-health support
+    q3.avg_hpsa_score,
+    q3.max_hpsa_score,
+    q3.pct_designated_population_underserved,
+    q3.provider_shortage_per_100k,
 
-  SELECT
-    COUNT(*) AS crosswalk_rows,
-    COUNT(DISTINCT LEAID) AS unique_districts,
-    COUNT(DISTINCT county_fips) AS unique_counties
-FROM vw_q9_district_county_crosswalk;
+    -- Flag the 10 states selected in Question 5
+    CASE
+        WHEN q1.state_abbreviation IN (
+            'UT', 'MS', 'WV', 'IN', 'MT',
+            'OR', 'KY', 'IA', 'WA', 'WY'
+        )
+        THEN 1
+        ELSE 0
+    END AS q5_priority_state
+
+FROM vw_nsch_state_question_1_final AS q1
+
+LEFT JOIN vw_nces_state_school_support_final AS q2
+    ON q1.state_abbreviation = q2.state_abbreviation
+
+LEFT JOIN vw_hpsa_state_community_support_final AS q3
+    ON q1.state_abbreviation = q3.state_abbreviation;
+
+
+-- ---------------------------------------------------------
+-- PART 3 QA:
+-- Confirm state view has expected geography and measures.
+-- ---------------------------------------------------------
+
+SELECT
+    COUNT(*) AS state_rows,
+    COUNT(DISTINCT state_abbreviation) AS unique_states,
+    SUM(q5_priority_state) AS priority_states
+FROM vw_final_state_analysis;
 
 -- =========================================================
 -- QUESTION 9
@@ -486,22 +529,22 @@ FROM vw_final_oregon_district_overlap;
 CREATE OR REPLACE VIEW vw_final_state_analysis AS
 
 SELECT
-    q1.state_name,
-    q1.state_abbreviation,
+  -- Pediatric mental-health burden
+q1.pct_current_anxiety,
+q1.pct_current_depression,
+q1.pct_current_adhd,
 
-    -- Pediatric mental-health burden
-    q1.pct_any_current_condition,
-    q1.pct_two_or_more_conditions,
+q1.pct_any_current_condition,
+q1.pct_two_or_more_conditions,
+q1.pct_all_three_conditions,
 
-    -- School mental-health support
-    q2.students_per_psychologist,
-    q2.students_per_guidance_counselor,
+-- Primary condition profile
+q1.dominant_condition_profile,
+q1.dominant_profile_pct,
 
-    -- Community mental-health support
-    q3.avg_hpsa_score,
-    q3.max_hpsa_score,
-    q3.pct_designated_population_underserved,
-    q3.provider_shortage_per_100k,
+-- Multi-condition profile
+q1.dominant_cooccurring_profile,
+q1.dominant_cooccurring_pct,
 
     -- Flag the 10 states selected in Question 5
     CASE
@@ -552,3 +595,4 @@ SELECT
     'oregon_district_overlap' AS dataset,
     COUNT(*) AS row_count
 FROM vw_final_oregon_district_overlap;
+
