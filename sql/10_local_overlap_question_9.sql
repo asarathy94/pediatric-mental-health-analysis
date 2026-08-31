@@ -596,3 +596,305 @@ SELECT
     COUNT(*) AS row_count
 FROM vw_final_oregon_district_overlap;
 
+-- =========================================================
+-- TABLEAU EXPORT
+-- QUESTION:
+-- Across the 10 priority states, what patterns of pediatric
+-- mental-health need, school support, and provider shortage
+-- help explain why these states surfaced?
+--
+-- PURPOSE:
+-- Create one Tableau-ready state table using the FINAL
+-- validated SQL views already produced in Questions 1-9.
+--
+-- Higher pressure_score = greater relative pressure
+-- within THIS 10-state group.
+-- =========================================================
+
+
+CREATE OR REPLACE VIEW vw_tableau_priority_states AS
+
+WITH priority_base AS (
+
+    SELECT
+        f.state_name,
+        f.state_abbreviation,
+
+        -- Final consensus ranking from Question 5
+        p.consensus_mismatch_rank,
+
+        ROW_NUMBER() OVER (
+            ORDER BY p.consensus_mismatch_rank ASC
+        ) AS priority_rank,
+
+        -- ---------------------------------------------
+        -- PEDIATRIC MENTAL-HEALTH NEED
+        -- ---------------------------------------------
+        f.pct_any_current_condition,
+        f.pct_two_or_more_conditions,
+
+        -- ---------------------------------------------
+        -- SCHOOL MENTAL-HEALTH SUPPORT
+        -- Higher students-per-staff = thinner capacity
+        -- ---------------------------------------------
+        f.students_per_psychologist,
+        f.students_per_guidance_counselor,
+
+        -- ---------------------------------------------
+        -- COMMUNITY MENTAL-HEALTH ACCESS
+        -- ---------------------------------------------
+        f.avg_hpsa_score,
+        f.max_hpsa_score,
+        f.pct_designated_population_underserved,
+        f.provider_shortage_per_100k
+
+    FROM vw_final_state_analysis AS f
+
+    INNER JOIN vw_q7_priority_states AS p
+        ON f.state_abbreviation = p.state_abbreviation
+),
+
+scored AS (
+
+    SELECT
+        *,
+
+        -- =====================================================
+        -- NORMALIZED PRESSURE SCORES
+        --
+        -- Tableau heatmaps should not compare raw percentages,
+        -- ratios, and HPSA scores on one shared color scale.
+        --
+        -- These convert each measure to a 0-100 RELATIVE score
+        -- within the 10 priority states.
+        --
+        -- 100 = greatest relative pressure in this group
+        -- 0   = lowest relative pressure in this group
+        -- =====================================================
+
+        ROUND(
+            100 * PERCENT_RANK() OVER (
+                ORDER BY pct_two_or_more_conditions ASC
+            ),
+            1
+        ) AS need_2plus_pressure_score,
+
+        ROUND(
+            100 * PERCENT_RANK() OVER (
+                ORDER BY pct_any_current_condition ASC
+            ),
+            1
+        ) AS need_any_pressure_score,
+
+        ROUND(
+            100 * PERCENT_RANK() OVER (
+                ORDER BY students_per_psychologist ASC
+            ),
+            1
+        ) AS psychologist_pressure_score,
+
+        ROUND(
+            100 * PERCENT_RANK() OVER (
+                ORDER BY students_per_guidance_counselor ASC
+            ),
+            1
+        ) AS counselor_pressure_score,
+
+        ROUND(
+            100 * PERCENT_RANK() OVER (
+                ORDER BY avg_hpsa_score ASC
+            ),
+            1
+        ) AS hpsa_pressure_score,
+
+        ROUND(
+            100 * PERCENT_RANK() OVER (
+                ORDER BY provider_shortage_per_100k ASC
+            ),
+            1
+        ) AS provider_shortage_pressure_score
+
+    FROM priority_base
+)
+
+SELECT *
+FROM scored
+
+ORDER BY priority_rank;
+
+SELECT *
+FROM vw_tableau_priority_states
+ORDER BY priority_rank;
+
+SELECT
+    COUNT(*) AS rows,
+    COUNT(DISTINCT state_abbreviation) AS unique_states,
+    MIN(priority_rank) AS first_rank,
+    MAX(priority_rank) AS last_rank
+FROM vw_tableau_priority_states;
+
+-- =========================================================
+-- TABLEAU LONG FORMAT
+--
+-- One row = one state x one indicator
+--
+-- This is ideal for:
+-- Rows    = State
+-- Columns = Indicator
+-- Color   = Pressure Score
+-- =========================================================
+
+
+CREATE OR REPLACE VIEW vw_tableau_priority_states_long AS
+
+
+-- 2+ CURRENT CONDITIONS
+SELECT
+    state_name,
+    state_abbreviation,
+    priority_rank,
+    consensus_mismatch_rank,
+
+    'Mental-health need' AS indicator_group,
+    '2+ current conditions' AS indicator,
+
+    pct_two_or_more_conditions AS raw_value,
+    '%' AS unit,
+
+    need_2plus_pressure_score AS pressure_score
+
+FROM vw_tableau_priority_states
+
+
+UNION ALL
+
+
+-- ANY CURRENT CONDITION
+SELECT
+    state_name,
+    state_abbreviation,
+    priority_rank,
+    consensus_mismatch_rank,
+
+    'Mental-health need',
+    'Any current condition',
+
+    pct_any_current_condition,
+    '%',
+
+    need_any_pressure_score
+
+FROM vw_tableau_priority_states
+
+
+UNION ALL
+
+
+-- SCHOOL PSYCHOLOGISTS
+SELECT
+    state_name,
+    state_abbreviation,
+    priority_rank,
+    consensus_mismatch_rank,
+
+    'School support',
+    'Students per psychologist',
+
+    students_per_psychologist,
+    'students per staff FTE',
+
+    psychologist_pressure_score
+
+FROM vw_tableau_priority_states
+
+
+UNION ALL
+
+
+-- GUIDANCE COUNSELORS
+SELECT
+    state_name,
+    state_abbreviation,
+    priority_rank,
+    consensus_mismatch_rank,
+
+    'School support',
+    'Students per guidance counselor',
+
+    students_per_guidance_counselor,
+    'students per staff FTE',
+
+    counselor_pressure_score
+
+FROM vw_tableau_priority_states
+
+
+UNION ALL
+
+
+-- HPSA SEVERITY
+SELECT
+    state_name,
+    state_abbreviation,
+    priority_rank,
+    consensus_mismatch_rank,
+
+    'Provider access',
+    'Average HPSA score',
+
+    avg_hpsa_score,
+    'HPSA score',
+
+    hpsa_pressure_score
+
+FROM vw_tableau_priority_states
+
+
+UNION ALL
+
+
+-- PROVIDER SHORTAGE
+SELECT
+    state_name,
+    state_abbreviation,
+    priority_rank,
+    consensus_mismatch_rank,
+
+    'Provider access',
+    'Provider shortage per 100k',
+
+    provider_shortage_per_100k,
+    'shortage per 100k',
+
+    provider_shortage_pressure_score
+
+FROM vw_tableau_priority_states;
+
+SELECT *
+FROM vw_tableau_priority_states_long
+ORDER BY
+    priority_rank,
+    indicator_group,
+    indicator;
+
+    COPY (
+    SELECT *
+    FROM vw_tableau_priority_states_long
+    ORDER BY priority_rank, indicator_group, indicator
+)
+TO '../data/exports_tableau/tableau_priority_states_long.csv'
+(
+    HEADER,
+    DELIMITER ','
+);
+
+COPY (
+    SELECT *
+    FROM vw_tableau_priority_states
+    ORDER BY priority_rank
+)
+TO '../data/exports_tableau/tableau_priority_states_wide.csv'
+(
+    HEADER,
+    DELIMITER ','
+);

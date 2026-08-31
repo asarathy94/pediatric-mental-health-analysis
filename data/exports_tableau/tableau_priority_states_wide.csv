@@ -1,0 +1,11 @@
+state_name,state_abbreviation,consensus_mismatch_rank,priority_rank,pct_any_current_condition,pct_two_or_more_conditions,students_per_psychologist,students_per_guidance_counselor,avg_hpsa_score,max_hpsa_score,pct_designated_population_underserved,provider_shortage_per_100k,need_2plus_pressure_score,need_any_pressure_score,psychologist_pressure_score,counselor_pressure_score,hpsa_pressure_score,provider_shortage_pressure_score
+UTAH,UT,10.8,1,27.22,10.26,1950.0,468.0,14.82,22,33.7,2.7,22.2,77.8,77.8,88.9,0.0,100.0
+MISSISSIPPI,MS,13.46,2,26.84,9.38,15456.8,372.1,18.08,24,15.39,1.34,0.0,55.6,88.9,77.8,100.0,33.3
+WEST VIRGINIA,WV,13.8,3,27.6,10.49,1695.8,308.9,16.8,24,18.05,2.62,33.3,88.9,55.6,22.2,77.8,77.8
+INDIANA,IN,14.13,4,24.38,11.47,1868.6,479.2,16.29,23,14.69,1.36,55.6,11.1,66.7,100.0,44.4,44.4
+MONTANA,MT,14.42,5,26.05,13.17,1423.1,288.2,16.53,22,26.84,2.32,100.0,33.3,22.2,0.0,55.6,66.7
+OREGON,OR,14.46,6,29.7,13.03,1429.2,324.1,16.7,24,12.37,1.04,88.9,100.0,44.4,44.4,66.7,11.1
+KENTUCKY,KY,15.8,7,26.77,12.27,1425.5,321.5,17.57,25,12.47,0.9,77.8,44.4,33.3,33.3,88.9,0.0
+IOWA,IA,15.96,8,26.88,9.62,29839.8,340.0,16.23,22,17.15,1.07,11.1,66.7,100.0,55.6,33.3,22.2
+WASHINGTON,WA,18.13,9,24.55,11.06,946.2,364.0,15.81,23,21.37,1.37,44.4,22.2,0.0,66.7,22.2,55.6
+WYOMING,WY,18.42,10,23.79,11.62,1121.4,297.7,15.73,21,36.4,2.68,66.7,0.0,11.1,11.1,11.1,88.9

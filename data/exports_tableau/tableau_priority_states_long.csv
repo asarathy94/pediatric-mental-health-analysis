@@ -1,0 +1,61 @@
+state_name,state_abbreviation,priority_rank,consensus_mismatch_rank,indicator_group,indicator,raw_value,unit,pressure_score
+UTAH,UT,1,10.8,Mental-health need,2+ current conditions,10.26,%,22.2
+UTAH,UT,1,10.8,Mental-health need,Any current condition,27.22,%,77.8
+UTAH,UT,1,10.8,Provider access,Average HPSA score,14.82,HPSA score,0.0
+UTAH,UT,1,10.8,Provider access,Provider shortage per 100k,2.7,shortage per 100k,100.0
+UTAH,UT,1,10.8,School support,Students per guidance counselor,468.0,students per staff FTE,88.9
+UTAH,UT,1,10.8,School support,Students per psychologist,1950.0,students per staff FTE,77.8
+MISSISSIPPI,MS,2,13.46,Mental-health need,2+ current conditions,9.38,%,0.0
+MISSISSIPPI,MS,2,13.46,Mental-health need,Any current condition,26.84,%,55.6
+MISSISSIPPI,MS,2,13.46,Provider access,Average HPSA score,18.08,HPSA score,100.0
+MISSISSIPPI,MS,2,13.46,Provider access,Provider shortage per 100k,1.34,shortage per 100k,33.3
+MISSISSIPPI,MS,2,13.46,School support,Students per guidance counselor,372.1,students per staff FTE,77.8
+MISSISSIPPI,MS,2,13.46,School support,Students per psychologist,15456.8,students per staff FTE,88.9
+WEST VIRGINIA,WV,3,13.8,Mental-health need,2+ current conditions,10.49,%,33.3
+WEST VIRGINIA,WV,3,13.8,Mental-health need,Any current condition,27.6,%,88.9
+WEST VIRGINIA,WV,3,13.8,Provider access,Average HPSA score,16.8,HPSA score,77.8
+WEST VIRGINIA,WV,3,13.8,Provider access,Provider shortage per 100k,2.62,shortage per 100k,77.8
+WEST VIRGINIA,WV,3,13.8,School support,Students per guidance counselor,308.9,students per staff FTE,22.2
+WEST VIRGINIA,WV,3,13.8,School support,Students per psychologist,1695.8,students per staff FTE,55.6
+INDIANA,IN,4,14.13,Mental-health need,2+ current conditions,11.47,%,55.6
+INDIANA,IN,4,14.13,Mental-health need,Any current condition,24.38,%,11.1
+INDIANA,IN,4,14.13,Provider access,Average HPSA score,16.29,HPSA score,44.4
+INDIANA,IN,4,14.13,Provider access,Provider shortage per 100k,1.36,shortage per 100k,44.4
+INDIANA,IN,4,14.13,School support,Students per guidance counselor,479.2,students per staff FTE,100.0
+INDIANA,IN,4,14.13,School support,Students per psychologist,1868.6,students per staff FTE,66.7
+MONTANA,MT,5,14.42,Mental-health need,2+ current conditions,13.17,%,100.0
+MONTANA,MT,5,14.42,Mental-health need,Any current condition,26.05,%,33.3
+MONTANA,MT,5,14.42,Provider access,Average HPSA score,16.53,HPSA score,55.6
+MONTANA,MT,5,14.42,Provider access,Provider shortage per 100k,2.32,shortage per 100k,66.7
+MONTANA,MT,5,14.42,School support,Students per guidance counselor,288.2,students per staff FTE,0.0
+MONTANA,MT,5,14.42,School support,Students per psychologist,1423.1,students per staff FTE,22.2
+OREGON,OR,6,14.46,Mental-health need,2+ current conditions,13.03,%,88.9
+OREGON,OR,6,14.46,Mental-health need,Any current condition,29.7,%,100.0
+OREGON,OR,6,14.46,Provider access,Average HPSA score,16.7,HPSA score,66.7
+OREGON,OR,6,14.46,Provider access,Provider shortage per 100k,1.04,shortage per 100k,11.1
+OREGON,OR,6,14.46,School support,Students per guidance counselor,324.1,students per staff FTE,44.4
+OREGON,OR,6,14.46,School support,Students per psychologist,1429.2,students per staff FTE,44.4
+KENTUCKY,KY,7,15.8,Mental-health need,2+ current conditions,12.27,%,77.8
+KENTUCKY,KY,7,15.8,Mental-health need,Any current condition,26.77,%,44.4
+KENTUCKY,KY,7,15.8,Provider access,Average HPSA score,17.57,HPSA score,88.9
+KENTUCKY,KY,7,15.8,Provider access,Provider shortage per 100k,0.9,shortage per 100k,0.0
+KENTUCKY,KY,7,15.8,School support,Students per guidance counselor,321.5,students per staff FTE,33.3
+KENTUCKY,KY,7,15.8,School support,Students per psychologist,1425.5,students per staff FTE,33.3
+IOWA,IA,8,15.96,Mental-health need,2+ current conditions,9.62,%,11.1
+IOWA,IA,8,15.96,Mental-health need,Any current condition,26.88,%,66.7
+IOWA,IA,8,15.96,Provider access,Average HPSA score,16.23,HPSA score,33.3
+IOWA,IA,8,15.96,Provider access,Provider shortage per 100k,1.07,shortage per 100k,22.2
+IOWA,IA,8,15.96,School support,Students per guidance counselor,340.0,students per staff FTE,55.6
+IOWA,IA,8,15.96,School support,Students per psychologist,29839.8,students per staff FTE,100.0
+WASHINGTON,WA,9,18.13,Mental-health need,2+ current conditions,11.06,%,44.4
+WASHINGTON,WA,9,18.13,Mental-health need,Any current condition,24.55,%,22.2
+WASHINGTON,WA,9,18.13,Provider access,Average HPSA score,15.81,HPSA score,22.2
+WASHINGTON,WA,9,18.13,Provider access,Provider shortage per 100k,1.37,shortage per 100k,55.6
+WASHINGTON,WA,9,18.13,School support,Students per guidance counselor,364.0,students per staff FTE,66.7
+WASHINGTON,WA,9,18.13,School support,Students per psychologist,946.2,students per staff FTE,0.0
+WYOMING,WY,10,18.42,Mental-health need,2+ current conditions,11.62,%,66.7
+WYOMING,WY,10,18.42,Mental-health need,Any current condition,23.79,%,0.0
+WYOMING,WY,10,18.42,Provider access,Average HPSA score,15.73,HPSA score,11.1
+WYOMING,WY,10,18.42,Provider access,Provider shortage per 100k,2.68,shortage per 100k,88.9
+WYOMING,WY,10,18.42,School support,Students per guidance counselor,297.7,students per staff FTE,11.1
+WYOMING,WY,10,18.42,School support,Students per psychologist,1121.4,students per staff FTE,11.1
