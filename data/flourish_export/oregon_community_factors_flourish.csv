@@ -1,0 +1,12 @@
+ID,Category,Factor,Oregon rate,Districts above state rate (%),Districts above state rate,Districts measured
+1,Economic pressure,Households receiving SNAP,16.0,51.1,96,188
+2,Economic pressure,Children under 18 in poverty,13.2,51.6,96,186
+3,Economic pressure,Children ages 5–17 in poverty,12.1,47.3,88,186
+4,Family context,All parents in labor force,71.8,41.4,77,186
+5,Family context,Female householder with children,4.0,29.8,56,188
+6,Access barriers,No broadband subscription,7.6,71.8,135,188
+7,Access barriers,Limited English proficiency,5.5,17.0,32,188
+8,Access barriers,Children under 19 uninsured,3.0,49.5,92,186
+9,Housing & transportation,High rent burden,43.1,39.4,74,188
+10,Housing & transportation,High homeowner cost burden,22.9,57.4,108,188
+11,Housing & transportation,No vehicle available,7.1,14.9,28,188
